@@ -18,7 +18,7 @@ namespace Its.ProtocolsIoT.Data.Models
             Speed = speed;
             Latitude = latitude;
             Longitude = longitude;
-            DeviceId = DeviceId;
+            DeviceId = deviceId;
 
             PartitionKey = Guid.NewGuid().ToString(); ;
             RowKey = DeviceId;

@@ -7,20 +7,21 @@ namespace Its.ProtocolsIoT.Data.Models
 {
     public class ScooterTable : TableEntity
     {
+        public string DeviceId { get; set; }
         public double Speed { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
 
-        public ScooterTable() { }
 
-        public ScooterTable(double speed, double latitude, double longitude)
+        public ScooterTable(string deviceId, double speed, double latitude, double longitude)
         {
             Speed = speed;
             Latitude = latitude;
             Longitude = longitude;
+            DeviceId = DeviceId;
 
-            PartitionKey = "Its";
-            RowKey = Guid.NewGuid().ToString();
+            PartitionKey = Guid.NewGuid().ToString(); ;
+            RowKey = DeviceId;
         }
 
         //id dispositivo partition key

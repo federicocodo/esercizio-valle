@@ -36,8 +36,9 @@ namespace Its.ProtocolsIoT.WebApplication.Controllers
         }
 
         // POST api/<ScooterController>
-        [HttpPost]
-        public void Post([FromBody] Scooter scooter)
+
+        [HttpPost("{deviceId}")]
+        public void Post(string deviceId, [FromBody] Scooter scooter)
         {
             var cs = _configuration.GetConnectionString("Its_Storage");
             var storageAccount = CloudStorageAccount.Parse(cs);
@@ -46,7 +47,7 @@ namespace Its.ProtocolsIoT.WebApplication.Controllers
 
             messagesTable.CreateIfNotExistsAsync();
 
-            var message = new ScooterTable(scooter.Speed, scooter.Latitude, scooter.Longitude);
+            var message = new ScooterTable(deviceId, scooter.Speed, scooter.Latitude, scooter.Longitude);
             var insertMessage = TableOperation.Insert(message);
             messagesTable.ExecuteAsync(insertMessage).ConfigureAwait(false);
         }

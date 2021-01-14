@@ -65,6 +65,8 @@ namespace ITS.ProtocolsIoT.WorkerService
                         var jsonString = JsonSerializer.Serialize(sensorData);
                         //protocol.Send(jsonString);
 
+
+                        //ciao
                         foreach (var topic in topics)
                         {
                             protocol.Subscribe("/scooter/device-7/" + topic);

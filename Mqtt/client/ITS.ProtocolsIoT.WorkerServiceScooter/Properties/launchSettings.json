@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.ProtocolsIoT.WorkerServiceScooter": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

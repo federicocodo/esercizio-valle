@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ITS.ProtocolsIoT.WorkerServiceScooter-533009D1-C6FE-4732-9F65-01526F24E443</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITS.ProtocolsIoT.Data\ITS.ProtocolsIoT.Data.csproj" />
+  </ItemGroup>
+</Project>

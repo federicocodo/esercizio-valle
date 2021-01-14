@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Its.ProtocolsIot.WorkerServiceMqttReceive": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

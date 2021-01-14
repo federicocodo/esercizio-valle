@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using Its.ProtocolsIoT.Data;
 using Its.ProtocolsIoT.Data.Models;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using uPLibrary.Networking.M2Mqtt;
@@ -21,12 +22,12 @@ namespace Its.ProtocolsIot.WorkerServiceMqttReceive
     {
         private readonly ILogger<Worker> _logger;
         private static MqttClient client;
-        private readonly ITableRepository _tableRepository;
+        private readonly IConfiguration _configuration;
 
-        public Worker(ILogger<Worker> logger, ITableRepository tableRepository)
+        public Worker(ILogger<Worker> logger, IConfiguration configuration)
         {
             _logger = logger;
-            _tableRepository = tableRepository;
+            _configuration = configuration;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -37,7 +38,7 @@ namespace Its.ProtocolsIot.WorkerServiceMqttReceive
 
             client = new MqttClient(BrokerAddress);
 
-            client.MqttMsgPublishReceived += PublishReceived;
+            client.MqttMsgPublishReceived += PublishReceivedAsync;
 
             string clientId = Guid.NewGuid().ToString();
 
@@ -58,14 +59,16 @@ namespace Its.ProtocolsIot.WorkerServiceMqttReceive
             Publish("scooter/device-1/cmd/display", "Scooter Display ON");
         }
 
-        public void PublishReceived(object sender, MqttMsgPublishEventArgs e)
+        public async void PublishReceivedAsync(object sender, MqttMsgPublishEventArgs e)
         {
             string ReceivedMessage = Encoding.UTF8.GetString(e.Message);
             if (ReceivedMessage != null)
             {
                 var detection = JsonSerializer.Deserialize<Scooter>(ReceivedMessage);
 
-                _tableRepository.Insert("device-1", detection);
+                TableRepository tableRepository = new TableRepository(_configuration);
+
+                await tableRepository.Insert("device-1", detection);
 
                 _logger.LogInformation($"Message: {ReceivedMessage}");
             }

@@ -11,6 +11,8 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-Its.ProtocolsIot.WorkerServiceMqttReceive-C95A22EB-F745-4E45-9840-932EB630" +
+    "3418")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Its.ProtocolsIot.WorkerServiceMqttReceive")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -20,7 +20,7 @@ namespace Its.ProtocolsIot.WorkerServiceMqttReceive
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
-                    services.AddSingleton<ITableRepository, TableRepository>();
+                    //services.AddSingleton<ITableRepository, TableRepository>();
                 });
     }
 }

@@ -19,7 +19,7 @@ namespace Its.ProtocolsIoT.Data
 
         public async Task Insert(string deviceId, Scooter scooter)
         {
-            var cs = _configuration.GetConnectionString("ItsStorage");
+            var cs = _configuration.GetConnectionString("Its_Storage");
             var storageAccount = CloudStorageAccount.Parse(cs);
             var tableClient = storageAccount.CreateCloudTableClient(new TableClientConfiguration());
             var usersClient = tableClient.GetTableReference("scooter");

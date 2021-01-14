@@ -47,8 +47,9 @@ C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.Proto
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.csprojAssemblyReference.cache
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.AssemblyInfoInputs.cache
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.AssemblyInfo.cs
-C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.csproj.CoreCompileInputs.cache
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.csproj.CopyComplete
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.dll
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.pdb
 C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.genruntimeconfig.cache
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIot.WorkerServiceMqttReceive\obj\Debug\netcoreapp3.1\Its.ProtocolsIot.WorkerServiceMqttReceive.csproj.CoreCompileInputs.cache

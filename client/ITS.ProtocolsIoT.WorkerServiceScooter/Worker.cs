@@ -30,23 +30,17 @@ namespace ITS.ProtocolsIoT.WorkerService
         {
             try
             {
+                List<string> devices = new List<string>();
+                List<Scooter> sensors = new List<Scooter>();
+                List<string> topics = new List<string>()
+                {
+                    "speed",
+                    "latitude",
+                    "longitude"
+                };
 
                 while (!stoppingToken.IsCancellationRequested)
                 {
-
-                    List<Scooter> sensors = new List<Scooter>();
-                    List<string> topics = new List<string>()
-                    {
-                        "speed",
-                        "latitude",
-                        "longitude"
-                    };
-
-                    var sensor = new Sensor();
-
-                    var scooter = new Scooter();
-                    scooter = sensor.GetScooter();
-                    sensors.Add(scooter);
 
 
                     var random = new Random();
@@ -54,9 +48,16 @@ namespace ITS.ProtocolsIoT.WorkerService
 
                     deviceId += id.ToString();
 
+                    IProtocol protocol = new MqttProtocol(deviceId);
+
+                    var sensor = new Sensor();
+                    var scooter = new Scooter();
+                    scooter = sensor.GetScooter();
+                    sensors.Add(scooter);
+
+
                     // define protocol
                     //IProtocol protocol = new HttpProtocol(url+endpoint+deviceId);
-                    IProtocol protocol = new MqttProtocol(deviceId);
 
 
                     foreach (var sensorData in sensors)
@@ -66,7 +67,7 @@ namespace ITS.ProtocolsIoT.WorkerService
 
                         foreach (var topic in topics)
                         {
-                            protocol.Subscribe("/scooter/" + deviceId + "/" + topic);
+                            protocol.Subscribe("/scooter/device-7/" + topic);
 
                             if(topic == "speed")
                             {

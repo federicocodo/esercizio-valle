@@ -9,12 +9,21 @@
     ".NETStandard,Version=v2.0/": {
       "ITS.ProtocolsIoT.Data/1.0.0": {
         "dependencies": {
+          "M2Mqtt": "4.3.0",
           "MQTTnet": "3.0.13",
           "Microsoft.Azure.Cosmos.Table": "1.0.8",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "ITS.ProtocolsIoT.Data.dll": {}
+        }
+      },
+      "M2Mqtt/4.3.0": {
+        "runtime": {
+          "lib/net45/M2Mqtt.Net.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
         }
       },
       "Microsoft.Azure.Cosmos.Table/1.0.8": {
@@ -1231,6 +1240,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "M2Mqtt/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2A1uM20uxuovQKPA0dkZUqD9gUpIMaX7KxdLiVM7IEXdPRL709hGuudHnvlDxm2/6b2LcOjshrYGVG9vdpipag==",
+      "path": "m2mqtt/4.3.0",
+      "hashPath": "m2mqtt.4.3.0.nupkg.sha512"
     },
     "Microsoft.Azure.Cosmos.Table/1.0.8": {
       "type": "package",

@@ -23,16 +23,28 @@ namespace Its.ProtocolsIot.WorkerServiceMqttReceive
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            while (!stoppingToken.IsCancellationRequested)
+            string topic = "/scooter/device-7/speed";
+            List<string> topics = new List<string>()
+                {
+                    "speed",
+                    "latitude",
+                    "longitude"
+                };
+
+            try
             {
-                _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-
                 var client = new MqttClient("127.0.0.1");
+                client.Connect(Guid.NewGuid().ToString());
+                client.Subscribe(new string[] { topic }, new byte[] { 2 });
+
                 client.MqttMsgPublishReceived += client_MqttMsgPublishReceived;
-
-
-                await Task.Delay(1000, stoppingToken);
+                
             }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
         }
 
         static void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)

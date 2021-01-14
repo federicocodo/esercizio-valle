@@ -7,3 +7,11 @@ C:\Users\Federico\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsI
 C:\Users\Federico\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.csproj.CoreCompileInputs.cache
 C:\Users\Federico\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.dll
 C:\Users\Federico\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.pdb
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\bin\Debug\netstandard2.0\Its.ProtocolsIoT.Data.deps.json
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\bin\Debug\netstandard2.0\Its.ProtocolsIoT.Data.dll
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\bin\Debug\netstandard2.0\Its.ProtocolsIoT.Data.pdb
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.csprojAssemblyReference.cache
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.AssemblyInfoInputs.cache
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.AssemblyInfo.cs
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.dll
+C:\Users\Luca\Desktop\esercizio-valle\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.pdb

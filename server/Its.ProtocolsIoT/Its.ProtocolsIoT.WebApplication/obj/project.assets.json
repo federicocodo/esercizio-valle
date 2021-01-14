@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "M2Mqtt/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/M2Mqtt.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/M2Mqtt.Net.dll": {}
+        }
+      },
       "Microsoft.Azure.Cosmos.Table/1.0.8": {
         "type": "package",
         "dependencies": {
@@ -1767,6 +1776,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "M2Mqtt": "4.3.0",
           "Microsoft.Azure.Cosmos.Table": "1.0.8"
         },
         "compile": {
@@ -1779,6 +1789,44 @@
     }
   },
   "libraries": {
+    "M2Mqtt/4.3.0": {
+      "sha512": "2A1uM20uxuovQKPA0dkZUqD9gUpIMaX7KxdLiVM7IEXdPRL709hGuudHnvlDxm2/6b2LcOjshrYGVG9vdpipag==",
+      "type": "package",
+      "path": "m2mqtt/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net39-cf/DeployFileList.txt",
+        "lib/net39-cf/M2Mqtt.NetCf39.dll",
+        "lib/net39-cf/M2Mqtt.NetCf39.pdb",
+        "lib/net45/M2Mqtt.Net.dll",
+        "lib/net45/M2Mqtt.Net.pdb",
+        "lib/netmf42/M2Mqtt.NetMf.dll",
+        "lib/netmf42/M2Mqtt.NetMf.pdb",
+        "lib/netmf42/be/M2Mqtt.NetMf.pdb",
+        "lib/netmf42/be/M2Mqtt.NetMf.pdbx",
+        "lib/netmf42/be/M2Mqtt.NetMf.pe",
+        "lib/netmf42/le/M2Mqtt.NetMf.pdb",
+        "lib/netmf42/le/M2Mqtt.NetMf.pdbx",
+        "lib/netmf42/le/M2Mqtt.NetMf.pe",
+        "lib/netmf43/M2Mqtt.NetMf.dll",
+        "lib/netmf43/M2Mqtt.NetMf.pdb",
+        "lib/netmf43/be/M2Mqtt.NetMf.pdb",
+        "lib/netmf43/be/M2Mqtt.NetMf.pdbx",
+        "lib/netmf43/be/M2Mqtt.NetMf.pe",
+        "lib/netmf43/le/M2Mqtt.NetMf.pdb",
+        "lib/netmf43/le/M2Mqtt.NetMf.pdbx",
+        "lib/netmf43/le/M2Mqtt.NetMf.pe",
+        "lib/win81/M2Mqtt.WinRT.dll",
+        "lib/win81/M2Mqtt.WinRT.pdb",
+        "lib/win81/M2Mqtt.WinRT.pri",
+        "lib/wpa81/M2Mqtt.WinRT.dll",
+        "lib/wpa81/M2Mqtt.WinRT.pdb",
+        "lib/wpa81/M2Mqtt.WinRT.pri",
+        "m2mqtt.4.3.0.nupkg.sha512",
+        "m2mqtt.nuspec"
+      ]
+    },
     "Microsoft.Azure.Cosmos.Table/1.0.8": {
       "sha512": "ToeEd1yijM7nQfLYvdFLG//RjKPmfqm45eOm86UAKrxtyGI/CXqP8iL74mzBp6mZ9A/K/ZYA2fVdpH0xHR5Keg==",
       "type": "package",
@@ -6054,19 +6102,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Federico\\.nuget\\packages\\": {}
+    "C:\\Users\\Luca\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Federico\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.WebApplication\\Its.ProtocolsIoT.WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.WebApplication\\Its.ProtocolsIoT.WebApplication.csproj",
       "projectName": "Its.ProtocolsIoT.WebApplication",
-      "projectPath": "C:\\Users\\Federico\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.WebApplication\\Its.ProtocolsIoT.WebApplication.csproj",
-      "packagesPath": "C:\\Users\\Federico\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Federico\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.WebApplication\\obj\\",
+      "projectPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.WebApplication\\Its.ProtocolsIoT.WebApplication.csproj",
+      "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6079,8 +6127,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Federico\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.Data\\Its.ProtocolsIoT.Data.csproj": {
-              "projectPath": "C:\\Users\\Federico\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.Data\\Its.ProtocolsIoT.Data.csproj"
+            "C:\\Users\\Luca\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.Data\\Its.ProtocolsIoT.Data.csproj": {
+              "projectPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\server\\Its.ProtocolsIoT\\Its.ProtocolsIoT.Data\\Its.ProtocolsIoT.Data.csproj"
             }
           }
         }
@@ -6109,6 +6157,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6117,8 +6171,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'M2Mqtt 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "M2Mqtt",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

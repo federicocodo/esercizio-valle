@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using ITS.ProtocolsIoT.Data;
 using System.Text.Json;
 using ITS.ProtocolsIoT.Data.Models;
+using ITS.ProtocolsIoT.Data.Protocols;
 
 namespace ITS.ProtocolsIoT.WorkerService
 {
@@ -34,6 +35,12 @@ namespace ITS.ProtocolsIoT.WorkerService
                 {
 
                     List<Scooter> sensors = new List<Scooter>();
+                    List<string> topics = new List<string>()
+                    {
+                        "speed",
+                        "latitude",
+                        "longitude"
+                    };
 
                     var sensor = new Sensor();
 
@@ -48,14 +55,36 @@ namespace ITS.ProtocolsIoT.WorkerService
                     deviceId += id.ToString();
 
                     // define protocol
-                    IProtocol protocol = new HttpProtocol(url+endpoint+deviceId);
+                    //IProtocol protocol = new HttpProtocol(url+endpoint+deviceId);
+                    IProtocol protocol = new MqttProtocol(deviceId);
 
 
                     foreach (var sensorData in sensors)
                     {
                         var jsonString = JsonSerializer.Serialize(sensorData);
-                        protocol.Send(jsonString);
+                        //protocol.Send(jsonString);
+
+                        foreach (var topic in topics)
+                        {
+                            protocol.Subscribe("/scooter/" + deviceId + "/" + topic);
+
+                            if(topic == "speed")
+                            {
+                                protocol.Publish(topic, sensorData.Speed.ToString());
+                            }
+                            if (topic == "latitude")
+                            {
+                                protocol.Publish(topic, sensorData.Latitude.ToString());
+                            }
+                            if (topic == "longitude")
+                            {
+                                protocol.Publish(topic, sensorData.Longitude.ToString());
+                            }
+                            
+                            
+                        }
                         Console.WriteLine(jsonString);
+
                     }
 
                     _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);

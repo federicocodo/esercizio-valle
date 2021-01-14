@@ -16,6 +16,11 @@ namespace ITS.ProtocolsIoT.Data
             this.endpoint = endpoint;
         }
 
+        public void Publish(string topic, string message)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Send(string data)
         {
             httpWebRequest = (HttpWebRequest)WebRequest.Create(endpoint);
@@ -32,6 +37,11 @@ namespace ITS.ProtocolsIoT.Data
             Console.Out.WriteLine(httpResponse.StatusCode);
 
             httpResponse.Close();
+        }
+
+        public void Subscribe(string data)
+        {
+            throw new NotImplementedException();
         }
     }
 }

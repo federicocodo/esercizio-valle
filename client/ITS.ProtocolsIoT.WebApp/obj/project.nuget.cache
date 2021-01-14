@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "re7emlKDKeu4Dn1GujWPrcoXkxoaoWxQNY3KQTiEjB3+TIGSZB/huPB5AoPjk/n2xOp2GDkyf25bWkb8b33t1Q==",
+  "dgSpecHash": "Uv7p4M85epzzy1MNqFQtO9fbhRanGi1tJFN5ZbVggZE5BSgKns+7B7qMmY8smaxP5CUBWd71/MbhptDIJNlAow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.WebApp\\ITS.ProtocolsIoT.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.WebApp\\ITS.ProtocolsIoT.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luca\\.nuget\\packages\\microsoft.azure.cosmos.table\\1.0.8\\microsoft.azure.cosmos.table.1.0.8.nupkg.sha512",
     "C:\\Users\\Luca\\.nuget\\packages\\microsoft.azure.documentdb.core\\2.11.2\\microsoft.azure.documentdb.core.2.11.2.nupkg.sha512",

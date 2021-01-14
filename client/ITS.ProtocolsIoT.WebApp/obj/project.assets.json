@@ -6585,11 +6585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.WebApp\\ITS.ProtocolsIoT.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.WebApp\\ITS.ProtocolsIoT.WebApp.csproj",
       "projectName": "ITS.ProtocolsIoT.WebApp",
-      "projectPath": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.WebApp\\ITS.ProtocolsIoT.WebApp.csproj",
+      "projectPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.WebApp\\ITS.ProtocolsIoT.WebApp.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.WebApp\\obj\\",
+      "outputPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6605,8 +6605,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj": {
-              "projectPath": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj"
+            "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj": {
+              "projectPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj"
             }
           }
         }

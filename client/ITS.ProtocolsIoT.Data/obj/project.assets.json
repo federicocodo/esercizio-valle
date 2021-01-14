@@ -6091,11 +6091,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj",
       "projectName": "ITS.ProtocolsIoT.Data",
-      "projectPath": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj",
+      "projectPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.Data\\ITS.ProtocolsIoT.Data.csproj",
       "packagesPath": "C:\\Users\\Luca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luca\\source\\repos\\ITS.ProtocolsIoT\\ITS.ProtocolsIoT.Data\\obj\\",
+      "outputPath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\client\\ITS.ProtocolsIoT.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luca\\AppData\\Roaming\\NuGet\\NuGet.Config",

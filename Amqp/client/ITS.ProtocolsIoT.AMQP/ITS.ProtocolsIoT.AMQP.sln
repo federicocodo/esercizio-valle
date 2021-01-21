@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.ProtocolsIoT.AMQP.Client", "ITS.ProtocolsIoT.AMQP.Client\ITS.ProtocolsIoT.AMQP.Client.csproj", "{A821A2B3-3E8A-4766-A74D-3F83758A9546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITS.ProtocolsIoT.AMQP.Data", "ITS.ProtocolsIoT.AMQP.Data\ITS.ProtocolsIoT.AMQP.Data.csproj", "{CBEFA278-8B1C-482E-999C-B3DC4FAB1E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A821A2B3-3E8A-4766-A74D-3F83758A9546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A821A2B3-3E8A-4766-A74D-3F83758A9546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A821A2B3-3E8A-4766-A74D-3F83758A9546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A821A2B3-3E8A-4766-A74D-3F83758A9546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEFA278-8B1C-482E-999C-B3DC4FAB1E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEFA278-8B1C-482E-999C-B3DC4FAB1E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEFA278-8B1C-482E-999C-B3DC4FAB1E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEFA278-8B1C-482E-999C-B3DC4FAB1E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E9048F1-71BC-4ECB-B39B-2F49A99BD91B}
+	EndGlobalSection
+EndGlobal

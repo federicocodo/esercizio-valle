@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ITS.ProtocolsIoT.AMQP.Client": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\bin\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.deps.json
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\bin\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.dll
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\bin\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.pdb
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\obj\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.csprojAssemblyReference.cache
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\obj\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.AssemblyInfoInputs.cache
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\obj\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.AssemblyInfo.cs
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\obj\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.csproj.CoreCompileInputs.cache
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\obj\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.dll
+C:\Users\Luca\source\repos\ITS.ProtocolsIoT.AMQP\ITS.ProtocolsIoT.AMQP.Data\obj\Debug\netstandard2.0\ITS.ProtocolsIoT.AMQP.Data.pdb

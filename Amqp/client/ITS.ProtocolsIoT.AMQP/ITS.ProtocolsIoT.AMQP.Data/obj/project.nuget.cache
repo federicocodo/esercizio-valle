@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3GyB4TJT05sRbLOzz4Ycep0rwY9lnHMIaVhYosYdRs919Yziif8WxTEEB4eLW6EkAy2s4w1OzGoAg1Tl/FnNpg==",
+  "dgSpecHash": "LRyKoKyea6uKF0uZMws7bfjvSZnNrNA7qAfMY5ucqwYtZThxvEGNp4RYf9Dmfh5KpXSjHE+ECQf34jdBkXzzLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luca\\Desktop\\esercizio-valle\\Amqp\\client\\ITS.ProtocolsIoT.AMQP\\ITS.ProtocolsIoT.AMQP.Data\\ITS.ProtocolsIoT.AMQP.Data.csproj",
+  "projectFilePath": "C:\\Users\\Federico\\Desktop\\esercizio-valle\\Amqp\\client\\ITS.ProtocolsIoT.AMQP\\ITS.ProtocolsIoT.AMQP.Data\\ITS.ProtocolsIoT.AMQP.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Luca\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Luca\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Federico\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

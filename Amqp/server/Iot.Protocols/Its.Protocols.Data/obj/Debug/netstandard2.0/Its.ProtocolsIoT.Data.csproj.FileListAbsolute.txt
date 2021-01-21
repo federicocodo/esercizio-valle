@@ -1,0 +1,9 @@
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\bin\Debug\netstandard2.0\Its.ProtocolsIoT.Data.deps.json
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\bin\Debug\netstandard2.0\Its.ProtocolsIoT.Data.dll
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\bin\Debug\netstandard2.0\Its.ProtocolsIoT.Data.pdb
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.csprojAssemblyReference.cache
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.AssemblyInfo.cs
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.dll
+C:\Users\Federico\Desktop\esercizio-valle\Mqtt\server\Its.ProtocolsIoT\Its.ProtocolsIoT.Data\obj\Debug\netstandard2.0\Its.ProtocolsIoT.Data.pdb

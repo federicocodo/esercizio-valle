@@ -29,9 +29,9 @@ namespace ITS.ProtocolsIoT.AMQP.Client
             
             while (!stoppingToken.IsCancellationRequested)
             {
+                await Task.Delay(1000, stoppingToken);
                 Send();
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-                await Task.Delay(1000, stoppingToken);
             }
         }
         protected void Send()
@@ -48,18 +48,20 @@ namespace ITS.ProtocolsIoT.AMQP.Client
                         var rnd = new Random();
                         var scooter = new Scooter()
                         {
-                            speed = rnd.Next(0, 100),
-                            latitude = rnd.Next(0, 100),
-                            longitude = rnd.Next(0, 100)
+                            Speed = rnd.Next(0, 100),
+                            Latitude = rnd.Next(0, 100),
+                            Longitude = rnd.Next(0, 100)
                         };
 
                         var jsonString = JsonSerializer.Serialize(scooter);
+
+                        
 
                         //string message = "Hello World!";
                         var body = Encoding.UTF8.GetBytes(jsonString);
 
                         channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
-                        Console.WriteLine(" [x] Sent {0}", jsonString);
+                        Console.WriteLine($"Sent {jsonString}");
 
                     }
                 }

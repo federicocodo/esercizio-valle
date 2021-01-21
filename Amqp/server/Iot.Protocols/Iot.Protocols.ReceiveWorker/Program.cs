@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Its.Protocols.Data;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -18,6 +19,7 @@ namespace Iot.Protocols.ReceiveWorker
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
+                    //services.AddSingleton<ITableRepository, TableRepository>();
                     services.AddHostedService<Worker>();
                 });
     }

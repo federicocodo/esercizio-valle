@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-Iot.Protocols.ReceiveWorker-E6286DB9-3655-4347-AD24-9DDF6E5E1A48")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iot.Protocols.ReceiveWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

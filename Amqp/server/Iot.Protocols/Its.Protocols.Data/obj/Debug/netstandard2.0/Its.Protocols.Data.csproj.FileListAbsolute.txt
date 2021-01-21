@@ -1,0 +1,9 @@
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\bin\Debug\netstandard2.0\Its.Protocols.Data.deps.json
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\bin\Debug\netstandard2.0\Its.Protocols.Data.dll
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\bin\Debug\netstandard2.0\Its.Protocols.Data.pdb
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\obj\Debug\netstandard2.0\Its.Protocols.Data.csprojAssemblyReference.cache
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\obj\Debug\netstandard2.0\Its.Protocols.Data.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\obj\Debug\netstandard2.0\Its.Protocols.Data.AssemblyInfo.cs
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\obj\Debug\netstandard2.0\Its.Protocols.Data.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\obj\Debug\netstandard2.0\Its.Protocols.Data.dll
+C:\Users\Federico\Desktop\esercizio-valle\Amqp\server\Iot.Protocols\Its.Protocols.Data\obj\Debug\netstandard2.0\Its.Protocols.Data.pdb
